@@ -21,5 +21,8 @@
     <ClCompile Include="bitwise_right_shift_operation.c">
       <Filter>소스 파일\tests</Filter>
     </ClCompile>
+    <ClCompile Include="rectangle_area_calculator.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
