@@ -36,5 +36,8 @@
     <ClCompile Include="review_print_statements.c">
       <Filter>소스 파일\reviews</Filter>
     </ClCompile>
+    <ClCompile Include="review_variables.c">
+      <Filter>소스 파일\reviews</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
