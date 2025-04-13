@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\tests">
       <UniqueIdentifier>{ae8d4767-7f6a-42c5-b9d1-00f02e5de37d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\reviews">
+      <UniqueIdentifier>{68d87114-5182-4757-a976-2fac4a50b58b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="bitwise_right_shift_operation.c">
@@ -26,6 +29,9 @@
     </ClCompile>
     <ClCompile Include="scanf_multi_line.c">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="review_basic_structure.c">
+      <Filter>소스 파일\reviews</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
