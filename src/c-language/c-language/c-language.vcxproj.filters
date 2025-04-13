@@ -42,5 +42,8 @@
     <ClCompile Include="review_operators.c">
       <Filter>소스 파일\reviews</Filter>
     </ClCompile>
+    <ClCompile Include="review_conditional_statements.c">
+      <Filter>소스 파일\reviews</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
