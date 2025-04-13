@@ -33,5 +33,8 @@
     <ClCompile Include="review_basic_structure.c">
       <Filter>소스 파일\reviews</Filter>
     </ClCompile>
+    <ClCompile Include="review_print_statements.c">
+      <Filter>소스 파일\reviews</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
