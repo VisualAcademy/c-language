@@ -54,5 +54,8 @@
     <ClCompile Include="review_functions_basic.c">
       <Filter>소스 파일\reviews</Filter>
     </ClCompile>
+    <ClCompile Include="review_functions_with_parameter.c">
+      <Filter>소스 파일\reviews</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
