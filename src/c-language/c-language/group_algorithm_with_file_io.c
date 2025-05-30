@@ -21,9 +21,11 @@ typedef struct
 
 // 파일 존재 여부 확인 함수
 // fopen으로 파일을 열어보고 성공하면 true, 실패하면 false 반환
-bool file_exists(const char* path) {
+bool file_exists(const char* path) 
+{
     FILE* file = fopen(path, "r");  // 읽기 모드로 열기 시도
-    if (file != NULL) {
+    if (file != NULL) 
+    {
         fclose(file);  // 파일이 존재하므로 닫고 true 반환
         return true;
     }
