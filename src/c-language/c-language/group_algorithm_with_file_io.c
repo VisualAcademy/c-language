@@ -16,7 +16,9 @@ typedef struct
     int quantity;
 } record_t;
 
-// 문자열 끝의 개행 문자 제거
+// (Optional) 줄 끝에 붙는 개행 문자를 제거하는 보조 함수입니다.
+// fgets()로 읽은 문자열을 비교하거나 가공할 때 유용하지만,
+// 현재 코드에서는 없어도 큰 문제 없이 동작할 수 있습니다.
 void trim_newline(char* str)
 {
     size_t len = strlen(str);
@@ -26,7 +28,9 @@ void trim_newline(char* str)
     }
 }
 
-// 파일 존재 여부 확인
+// (Reference only) 파일이 존재하는지를 확인하는 간단한 유틸리티 함수입니다.
+// 파일이 없을 경우 입력 파일을 새로 만드는 로직에서 사용되며,
+// 파일 시스템을 다룰 때 자주 쓰이지만 C 언어 입문자에겐 생소할 수 있습니다.
 bool file_exists(const char* path)
 {
     struct stat buffer;
