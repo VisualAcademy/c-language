@@ -60,5 +60,11 @@
     <ClCompile Include="review_functions_with_return.c">
       <Filter>소스 파일\reviews</Filter>
     </ClCompile>
+    <ClCompile Include="array_pointer_relation.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="group_algorithm_with_file_io.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
