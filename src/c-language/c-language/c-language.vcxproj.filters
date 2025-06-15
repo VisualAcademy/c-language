@@ -66,5 +66,8 @@
     <ClCompile Include="group_algorithm_with_file_io.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="spiral_matrix.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
