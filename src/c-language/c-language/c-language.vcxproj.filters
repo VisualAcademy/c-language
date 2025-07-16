@@ -69,5 +69,8 @@
     <ClCompile Include="spiral_matrix.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="array_two1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
