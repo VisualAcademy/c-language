@@ -181,7 +181,10 @@
     <ClCompile Include="spiral_matrix.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="삼차원배열데모.c" />
+    <ClCompile Include="배열_삼차원_테트리스블록표현.c" />
+    <ClCompile Include="삼차원배열데모.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="이차원배열데모.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
