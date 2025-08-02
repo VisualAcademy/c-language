@@ -87,5 +87,8 @@
     <ClCompile Include="배열_삼차원_테트리스블록표현.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="함수_정의_호출.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
