@@ -102,5 +102,8 @@
     <ClCompile Include="FunctionDemo.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="함수의3가지유형.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
